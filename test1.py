@@ -21,3 +21,8 @@ given_name = input("Vad heter du? ");
 def greet(name):
  print("hello", name)
 greet(given_name)"""
+def addera(term1, term2):
+    return term1 + term2
+print(f"5 + 7 = {addera(5, 7)}")
+
+    
